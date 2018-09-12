@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body {
+  background: #09203a;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'PT Sans', sans-serif;
+  h3 {
+    padding-top: 15px;
+    color: #ffffff;
+  }
+  hr {
+    background: #ff6363;
+  }
+  .figure {
+    background: #09203a !important;
+    padding: 0.85rem !important;
+    opacity: 0.8;
+    transition: opacity .25s ease-in-out;
+    &.img-thumbnail {
+      border: solid 1px #ff6363;
+    }
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
